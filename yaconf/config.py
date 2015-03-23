@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import yaml
-from utils import DotDict
+from .utils import DotDict
 
 __author__ = 'comyn'
 
@@ -65,4 +65,4 @@ if __name__ == '__main__':
     with open('/Users/xuemingli/workspace/logminitor-config/alertd/alertd.yml') as f:
         c.parse(f)
         c.set_env('production')
-        print c.zookeeper.hosts
+        print(c.zookeeper.hosts)

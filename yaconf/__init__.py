@@ -2,4 +2,4 @@
 
 __author__ = 'comyn'
 
-from config import Config
+from .config import Config
